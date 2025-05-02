@@ -1,4 +1,4 @@
-import React from 'react'
+
 import hero from '../assets/pic2.jpg'
 
 function Hero() {

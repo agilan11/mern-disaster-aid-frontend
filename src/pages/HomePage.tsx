@@ -1,4 +1,4 @@
-import React from 'react'
+
 import landingImage from '../assets/pic1.jpg'
 
 function HomePage() {

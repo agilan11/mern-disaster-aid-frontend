@@ -1,4 +1,4 @@
-import { useMutation,useQuery,UseMutationResult } from "@tanstack/react-query";
+import { useMutation,useQuery } from "@tanstack/react-query";
 import { useAuth0 } from "@auth0/auth0-react";
 import { toast } from "sonner";
 import React from 'react';

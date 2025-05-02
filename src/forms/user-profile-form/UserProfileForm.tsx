@@ -12,7 +12,6 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { useEffect } from "react";
-import React from 'react';
 import LoadingButton from "@/components/LoadingButton";
 import { Button } from "@/components/ui/button";
 import { User } from "@/types";

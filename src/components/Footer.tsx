@@ -1,4 +1,3 @@
-import React from 'react';
 const Footer = () => {
     return (
       <div className="bg-emerald-600 py-10">
