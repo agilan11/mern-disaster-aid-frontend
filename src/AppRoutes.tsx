@@ -4,6 +4,7 @@ import AuthCallbackPage from "./pages/AuthCallbackPage";
 import HomePage from './pages/HomePage'
 import UserProfilePage from "./pages/UserProfilePage";
 import ProtectedRoute from "./auth/ProtectedRoute";
+import ManageSupplyshedPage from "./pages/ManageSupplyshedPage";
 
 const AppRoutes=()=>{
     return(
@@ -13,13 +14,20 @@ const AppRoutes=()=>{
             </Layout>} />
             <Route path="/auth-callback" element={<AuthCallbackPage />} />
             <Route element={<ProtectedRoute />}>
-
-            <Route
-                path="/user-profile"
-                element={
-                    <Layout>
-                <UserProfilePage />
-                </Layout>
+                <Route
+                    path="/user-profile"
+                    element={
+                        <Layout>
+                    <UserProfilePage />
+                    </Layout>
+                        }
+                        />
+                <Route
+                    path="/manage-supplyshed"
+                    element={
+                        <Layout>
+                        <ManageSupplyshedPage />
+                        </Layout>
                     }
                     />
             </Route>

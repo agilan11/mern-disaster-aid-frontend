@@ -22,10 +22,10 @@ function UsernameMenu() {
       <DropdownMenuContent>
         <DropdownMenuItem>
           <Link
-            to="/manage-restaurant"
+            to="/manage-supplyshed"
             className="font-bold hover:text-emerald-600"
           >
-            Manage Restaurant
+            Manage Supply Warehouse
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem>
